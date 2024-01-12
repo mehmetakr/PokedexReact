@@ -1,0 +1,25 @@
+.pokedex {
+  flex-direction: column;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pokedex-card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.winner {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.loser {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: red;
+}
